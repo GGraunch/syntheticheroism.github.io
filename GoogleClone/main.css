@@ -142,15 +142,13 @@ div {
 
 #searchbox {
 	position: relative;
-	text-align: center;
+	margin: 23px auto;
 }
 
 }
 
 input {
 	width: 550px;
-	margin-left: 8px;
-	margin-top: -6px;
 	margin-bottom: 35px;
 	height: 27px;
 	border-bottom-color: #fff;
@@ -160,8 +158,6 @@ input {
 
 input:hover {
 	width: 550px;
-	margin-left: 8px;
-	margin-top: -6px;
 	margin-bottom: 35px;
 	height: 27px;
 	border-bottom-color: #fff;
@@ -170,8 +166,6 @@ input:hover {
 
 input:active {
 	width: 550px;
-	margin-left: 8px;
-	margin-top: -6px;
 	margin-bottom: 35px;
 	height: 27px;
 	border: 1px solid #4d90fe;
@@ -214,7 +208,7 @@ footer {
 	float: right;
 	height: 29px;
 	padding-top: 3px;
-	border-top: solid 1px #666;
+	border-top: solid 1px #ebebeb;
 }
 
 footer a {
