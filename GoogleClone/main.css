@@ -100,7 +100,7 @@ div {
 }
 
 #signin {
-	background-color: #c53727;
+	background-color: #d14836;
 	float: right;
 	margin-top: 32px;
 	margin-right: 33px;
@@ -112,7 +112,8 @@ div {
 	text-decoration: none;
 	font-size: 11px;
 	width: 72px;
-	font-family: arial bold;
+	font-family: arial, sans-serif;
+	font-weight: bold;
 }
 
 .centered {
@@ -141,12 +142,13 @@ div {
 
 #searchbox {
 	position: relative;
+	text-align: center;
 }
 
 }
 
 input {
-	width: 41%;
+	width: 550px;
 	margin-left: 8px;
 	margin-top: -6px;
 	margin-bottom: 35px;
@@ -157,7 +159,7 @@ input {
 }
 
 input:hover {
-	width: 100%;
+	width: 550px;
 	margin-left: 8px;
 	margin-top: -6px;
 	margin-bottom: 35px;
@@ -167,7 +169,7 @@ input:hover {
 }
 
 input:active {
-	width: 100%;
+	width: 550px;
 	margin-left: 8px;
 	margin-top: -6px;
 	margin-bottom: 35px;
@@ -212,6 +214,7 @@ footer {
 	float: right;
 	height: 29px;
 	padding-top: 3px;
+	border-top: solid 1px #666;
 }
 
 footer a {
