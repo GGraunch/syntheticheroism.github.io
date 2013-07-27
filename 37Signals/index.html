@@ -4,6 +4,8 @@
 	<meta charset="utf-8" name="viewport" content="initial-scale=1">
 	<link rel="stylesheet" href="main.css"/>
 	<title>37signals: Web-based collaboration apps for small business</title>
+	<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="application.js"></script>
 </head>
 <body>
 	<!--Navigation bar-->
@@ -21,63 +23,88 @@
 	<!--Logo and headline-->
 	<div class="container">
 		<img class="logo" src="http://37signals.com/images/logo-37s-large.png">
-		<div class="header">
-			<h1>Making collaboration productive and enjoyable for people everyday.
-			</h1>
-			<h5>Frustration-free web-based apps for collaboration, sharing information, and making decisions.
-			</h5>
+		<div class="headlines">
+				<h1>Making collaboration productive and enjoyable for people everyday.
+				</h1>
+				<h5>Frustration-free web-based apps for collaboration, sharing information, and making decisions.
+				</h5>
 		</div>
-	<!--Feature Icons-->
+<!--End Headlines-->
+		
+<!--Feature Icons-->
 		<div class="features">
 			<!--Change these to separate divs and include underlining text-->
 			<figure>
-				<a href="#"><img src="http://37signals.com/images/logo-bc.png" alt="Basecamp: Manage Projects - Used by millions for project management.">
-					<ul>
-						<li class="label">Basecamp</li>
-						<li class="purpose">Manage Projects</li>
-						<li class="descript">Used by millions for project management.</li>
-					</ul>
-				</a>
-				<a href="#"><img src="http://37signals.com/images/logo-hr.png" alt="Highrise: Manage Contacts - Know the people you do business with.">
-					<ul>
-						<li class="label">Highrise</li>
-						<li class="purpose">Manage Contacts</li>
-						<li class="descript">Know the people you do business with.</li>
-					</ul>
-				</a>
-				<a href="#"><img src="http://37signals.com/images/logo-cf.png" alt="Campfire: Work in Real-Time - Group chat rooms for your business.">
-					<ul>
-						<li class="label">Campfire</li>
-						<li class="purpose">Work in Real-Time</li>
-						<li class="descript">Group chat rooms for your business.</li>
-					</ul>
-				</a>
+					<div class="headbc" style="display:none">
+						<h1>
+							<span>Basecamp</span> is the project management tool you wish you had on your last project.
+						</h1>
+						<p>
+							Are you still managing projects with email? Are you still using Excel for your to-do lists? It's time to upgrade to Basecamp. Manage projects and collaborate with your team and clients the modern way.
+						</p>
+						<img src="http://37signals.com/images/arrow-left.png" width="69" height="69" class="arrow">
+					</div>
+
+	<!--Alternate Headlines for hovers-->
+
+		<!--Highrise hover-->
+					<div class="headhr" style="display:none">
+						<h1>
+							<span>Highrise</span>
+							remembers the important things about people you'd normally forget.
+						</h1>
+						<p>
+							Keep a permanent record of people you do business with. Know who you talked to, when you talked to them, what was said, and when to follow up next. Over 20,000,000 contacts are tracked using Highrise.
+						</p>
+						<img src="http://37signals.com/images/arrow-left.png" width="69" height="69" class="arrow">
+					</div>
+
+			<!--Campfire hover-->
+					<div class="headcf" style="display:none">
+						<h1>
+							From near or far, <span>Campfire</span> helps teams work together over the web in real-time.
+						</h1>
+						<p>
+							Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time private chat room. It's game changing. We couldn't run our own business without Campfire.
+						</p>
+						<img src="http://37signals.com/images/arrow-right.png" width="69" height="69" class="arrow">
+					</div>
+
+		<!--Product Icons-->
+				
+					<a href="www.basecamp.com"><img id="basecamp" src="http://37signals.com/images/logo-bc.png" alt="Basecamp: Manage Projects - Used by millions for project management.">
+						<ul>
+							<li class="label">Basecamp</li>
+							<li class="purpose">Manage Projects</li>
+							<li class="descript">Used by millions for project management.</li>
+						</ul>
+					</a>
+				
+					<a href="www.highrisehq.com"><img id="highrise" src="http://37signals.com/images/logo-hr.png" alt="Highrise: Manage Contacts - Know the people you do business with.">
+						<ul>
+							<li class="label">Highrise</li>
+							<li class="purpose">Manage Contacts</li>
+							<li class="descript">Know the people you do business with.</li>
+						</ul>
+					</a>
+				
+					<a href="www.campfirenow.com"><img id="campfire" src="http://37signals.com/images/logo-cf.png" alt="Campfire: Work in Real-Time - Group chat rooms for your business.">
+						<ul>
+							<li class="label">Campfire</li>
+							<li class="purpose">Work in Real-Time</li>
+							<li class="descript">Group chat rooms for your business.</li>
+						</ul>
+					</a>
 			</figure>
 		</div>
 	</div>
+	<hr>
+</body>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<footer>
+</footer>
 
 
 </html>

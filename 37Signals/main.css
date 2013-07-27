@@ -64,7 +64,7 @@ nav a {
 	text-decoration: none;
 }
 
-.greet {
+nav ul li.greet {
 	float: left;
 	padding: 10px 0 0 40px;
 }
@@ -84,7 +84,7 @@ div {
 }
 
 .container {
-	height: 300px;
+	height: 530px;
 	text-align: center;
 }
 
@@ -92,7 +92,7 @@ div {
 
 }
 
-.header {
+.headlines {
 	background-color: #fff;
 	margin: 30px auto;
 	width: 75%;
@@ -115,26 +115,72 @@ h5 {
 
 /*Features and Icons*/
 
+.features div {
+
+
+}
+
 .features {
 
 }
 
 figure	{
-	display: inline;
+	display: block;
 }
 
 figure a {
-	padding: 0 40px;
+	padding: 17px;
+	margin: 0 18px;
 	text-decoration: none;
 	display: inline-block;
+	height: 207px;
+	width: 144px;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #efefef;
+	background: -webkit-gradient(linear, 
+		left top, left bottom, 
+		from(#fff), to(#efefef));	
 }
 
-figure ul {
-
+figure div h1 {
+	color: #222;
+	margin: 10px 0 15px 0;
+	font-size: 46px;
+	letter-spacing: -1px;
 }
 
-figure li {
+figure div h1 span {
+	color: #336699;
+	text-decoration: underline;
+}
 
+figure div p {
+	font-size: 15px;
+	color: #222;
+	line-height: 1.4em;
+	margin-top: 5px;
+	font-family: 'Lucida Grande', 
+		'Lucida Sans Unicode', 
+		Verdana, sans-serif;
+}
+
+div.headbc img.arrow {
+	position: relative;
+	top: 35px;
+	left: -147px;
+}
+
+div.headhr img.arrow {
+	position: relative;
+	top: 45px;
+	left: 76px;
+}
+
+div.headcf img.arrow {
+	position: relative;
+	right: -173px;
+	top: 40px;
 }
 
 .label {
@@ -142,11 +188,12 @@ figure li {
 	font-size: 25px;
 	color: #369;
 	font-weight: bold;
-	margin: 14px;
+	margin: 17px 10px;
 }
 
 .purpose {
-	margin: 5px 0 10px;
+	margin: 11px 0 15px;
+	padding: 0;
 	color: #cc0000;
 	font-weight: bold;
 	font-size: 17px;
@@ -154,8 +201,18 @@ figure li {
 
 .descript {
 	width: 150px;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 1.4 em;
-	margin: 0px
 	color: #222;
+	margin: 0px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+hr {
+	clear: both;
+	border: none;
+	background: #fff url('http://37signals.com/images/img-hr.png') no-repeat scroll 50% 50%;
+	color: transparent;
+	height: 40px;
+	width: 676px;
 }
